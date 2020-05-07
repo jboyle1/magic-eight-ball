@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Majic Eight Ball</title>
+    </head>
+    <body>
+        <header>
+            <div id="title">Magic Eight Ball</div>
+        </header>
+        <main>
+            <div id="eight-ball-area">
+                <section>
+                    <div id="question-form">
+                        <form action="/magic-eight-ball.js" method="POST">
+                            <input type="text" name="question-asked" placeholder="Ask Quetion" required>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </section>
+                <section>
+                    <div id="ball">
+                        <div id="output"></div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
