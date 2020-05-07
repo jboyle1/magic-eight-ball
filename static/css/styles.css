@@ -13,14 +13,19 @@
 /* /Header */
 
 /* Main */
-/* Form */
 
-#question-form {
-    text-align: center;
-    padding: 40px 40px;
+#eight-ball-area {
+    margin-top: 30px;
 }
 
-#question-form input {
+/* Form */
+
+#question-form, #name-form {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#question-form input, #name-form input {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -33,6 +38,16 @@ input[type="submit" i] {
     margin-left: 4px;
 }
 
+#name-output {
+    width:180px;
+    height:40px;
+    margin: auto;
+}
+#question-output {
+    width:180px;
+    height:40px;
+    margin: auto;
+}
 /* /Form */
 
 /* Ball */
@@ -44,6 +59,7 @@ input[type="submit" i] {
     text-align: center;
     margin: auto;
     background-color: #000000;
+    margin-top: 30px;
 }
 
 #ball .number-eight {

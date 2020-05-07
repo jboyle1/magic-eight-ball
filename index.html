@@ -6,7 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="./static/css/reset.css">
         <link rel="stylesheet" typr="text/css" href="./static/css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto+Condensed&display=swap"
+            rel="stylesheet">
         <title>Majic Eight Ball</title>
     </head>
     <body>
@@ -16,16 +18,39 @@
         <main>
             <div id="eight-ball-area">
                 <section>
+                    <div id="name-form">
+                        <form action="./static/js/magic-eight-ball.js" method="POST">
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Enter your Name"
+                                required="required">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </section>
+                <section>
+                    <div id="name-output"></div>
+                </section>
+                <section>
                     <div id="question-form">
                         <form action="./static/js/magic-eight-ball.js" method="POST">
-                            <input type="text" name="question-asked" placeholder="Ask Quetion" required>
+                            <input
+                                type="text"
+                                name="question-asked"
+                                placeholder="Ask Quetion"
+                                required="required">
                             <input type="submit" value="Send">
                         </form>
                     </div>
                 </section>
                 <section>
+                    <div id="question-output"></div>
+                </section>
+                <section>
                     <div id="ball">
-                        <div class="number-eight"><span>8</span></div>
+                        <div class="number-eight">
+                            <span>8</span></div>
                         <div id="output"></div>
                     </div>
                 </section>
