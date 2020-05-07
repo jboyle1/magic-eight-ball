@@ -15,7 +15,7 @@ let randomNumber = Math.floor(Math.random() * 8);
 // Create one more variable named eightBall, and set it equal to an empty string. Its value will depend on the value of randomNumber via a switch statement.
 let eightBall = "";
 
-// create a control flow that takes in the randomNumber we made in step 4, and then assigns eightBall to a reply that a Magic Eight Ball would return.
+// Create a control flow that takes in the randomNumber we made in step 4, and then assigns eightBall to a reply that a Magic Eight Ball would return.
 switch (randomNumber) {
     case 0:
         eightBall = 'It is ceartain';
@@ -42,3 +42,6 @@ switch (randomNumber) {
         eightBall = 'Signs point to yes';
         break;
 };
+
+// Write a console.log() to print the Magic Eight Ball’s answer, the value of the eightBall variable.
+console.log(`The eight ball answered: ${eightBall}`);
