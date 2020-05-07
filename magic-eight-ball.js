@@ -15,3 +15,30 @@ let randomNumber = Math.floor(Math.random() * 8);
 // Create one more variable named eightBall, and set it equal to an empty string. Its value will depend on the value of randomNumber via a switch statement.
 let eightBall = "";
 
+// create a control flow that takes in the randomNumber we made in step 4, and then assigns eightBall to a reply that a Magic Eight Ball would return.
+switch (randomNumber) {
+    case 0:
+        eightBall = 'It is ceartain';
+        break;
+    case 1:
+        eightBall = 'It is decidedly so';
+        break;
+    case 2:
+        eightBall = 'Reply hazy, try again';
+        break;
+    case 3:
+        eightBall = 'Cannot predict now';
+        break;
+    case 4:
+        eightBall = 'Do not count on it';
+        break;
+    case 5:
+        eightBall = 'My sources say no';
+        break;
+    case 6:
+        eightBall = 'Outlook not so good';
+        break;
+    case 7:
+        eightBall = 'Signs point to yes';
+        break;
+};
