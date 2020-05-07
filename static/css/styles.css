@@ -1,3 +1,6 @@
+
+/* Header */
+
 #title {
     font-family: 'Fugaz One', cursive;
     text-align: center;
@@ -6,3 +9,30 @@
     background-color: darkolivegreen;
     color: #ffffff;
 }
+
+/* /Header */
+
+/* Main */
+/* Form */
+
+#question-form {
+    text-align: center;
+    padding: 40px 40px;
+}
+
+#question-form input {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input[type="submit" i] {
+    background-color: darkolivegreen;
+    border: none;
+    color: #ffffff;
+    padding: 3px 6px 3px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+}
+
+/* /Form */
+
+/* Main */
