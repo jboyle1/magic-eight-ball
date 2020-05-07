@@ -11,3 +11,7 @@ console.log(`${userName} asked: ${userQuestion}`);
 
 // Generate a random number between 0 and 7. Create another variable, and name it randomNumber. Set it equal to this expression, which uses two methods from the Math library.
 let randomNumber = Math.floor(Math.random() * 8);
+
+// Create one more variable named eightBall, and set it equal to an empty string. Its value will depend on the value of randomNumber via a switch statement.
+let eightBall = "";
+
