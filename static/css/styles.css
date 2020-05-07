@@ -35,4 +35,17 @@ input[type="submit" i] {
 
 /* /Form */
 
+/* Ball */
+
+#ball {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    text-align: center;
+    margin: auto;
+    background-color: #000000;
+}
+
+/* Ball */
+
 /* Main */
