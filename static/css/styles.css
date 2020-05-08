@@ -20,16 +20,16 @@
 
 /* Form */
 
-#question-form, #name-input {
+#question-input, #name-input {
     text-align: center;
     padding: 10px 40px;
 }
 
-#first_name {
+#first_name, #question {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#question-form button, #name-input button {
+#question-input button, #name-input button {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -42,7 +42,7 @@ button[type="submit" i] {
     margin-left: 4px;
 }
 
-#result1 {
+#result1, #result2 {
     width:180px;
     height:40px;
     margin: auto;
@@ -50,11 +50,7 @@ button[type="submit" i] {
     font-family: 'Roboto Condensed', sans-serif;
     padding-top: 10px;
 }
-#question-output {
-    width:180px;
-    height:40px;
-    margin: auto;
-}
+
 /* /Form */
 
 /* Ball */

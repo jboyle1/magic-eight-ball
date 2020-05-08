@@ -24,22 +24,16 @@
                     </div>
                 </section>
                 <section>
-                        <div id="result1"></div>
+                    <div id="result1"></div>
                 </section>
                 <section>
-                    <div id="question-form">
-                        <form action="./static/js/magic-eight-ball.js" method="POST">
-                            <input
-                                type="text"
-                                name="question-asked"
-                                placeholder="Ask Quetion"
-                                required="required">
-                            <input type="submit" value="Send">
-                        </form>
+                    <div id="question-input">
+                        <input placeholder="Enter Question" id="question">
+                        <button id="ask">Ask</button>
                     </div>
                 </section>
                 <section>
-                    <div id="question-output"></div>
+                    <div id="result2"></div>
                 </section>
                 <section>
                     <div id="ball">
@@ -50,7 +44,7 @@
                 </section>
             </div>
         </main>
-        
+
     </body>
     <script src="./static/js/magic-eight-ball.js"></script>
 </html>
