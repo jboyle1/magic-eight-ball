@@ -33,7 +33,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-button[type="submit" i] {
+button {
     background-color: darkolivegreen;
     border: none;
     color: #ffffff;
