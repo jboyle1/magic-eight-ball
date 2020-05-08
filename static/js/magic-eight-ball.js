@@ -1,7 +1,11 @@
-let userName = '';
-
-// Create a ternary expression that decides what to do if the user enters a name or not.
-userName ? console.log(`Hello ${userName}`) : console.log(`Hello`);
+// Create Function that takes user name and outputs the value in a HTML string.
+function say_hi() {
+    var fname = document.getElementById('first_name').value;
+    var html = `Hello ${fname}`;
+    document.getElementById('result1').innerHTML = html;
+}
+// Add an event lidtener for the say_hi function.
+document.getElementById('say').addEventListener('click', say_hi);
 
 // Create a variable named userQuestion. The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.
 let userQuestion = 'Will I become a wearwolf tonight?';

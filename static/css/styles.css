@@ -20,16 +20,20 @@
 
 /* Form */
 
-#question-form, #name-form {
+#question-form, #name-input {
     text-align: center;
     padding: 10px 40px;
 }
 
-#question-form input, #name-form input {
+#first_name {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-input[type="submit" i] {
+#question-form button, #name-input button {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button[type="submit" i] {
     background-color: darkolivegreen;
     border: none;
     color: #ffffff;
@@ -38,10 +42,13 @@ input[type="submit" i] {
     margin-left: 4px;
 }
 
-#name-output {
+#result1 {
     width:180px;
     height:40px;
     margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 10px;
 }
 #question-output {
     width:180px;

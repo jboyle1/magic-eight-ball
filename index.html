@@ -9,7 +9,7 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto+Condensed&display=swap"
             rel="stylesheet">
-        <title>Majic Eight Ball</title>
+        <title>Magic Eight Ball</title>
     </head>
     <body>
         <header>
@@ -18,19 +18,13 @@
         <main>
             <div id="eight-ball-area">
                 <section>
-                    <div id="name-form">
-                        <form action="./static/js/magic-eight-ball.js" method="POST">
-                            <input
-                                type="text"
-                                name="name"
-                                placeholder="Enter your Name"
-                                required="required">
-                            <input type="submit" value="Submit">
-                        </form>
+                    <div id="name-input">
+                        <input placeholder="Enter Name" id="first_name">
+                        <button id="say">Say hi!</button>
                     </div>
                 </section>
                 <section>
-                    <div id="name-output"></div>
+                        <div id="result1"></div>
                 </section>
                 <section>
                     <div id="question-form">
@@ -56,5 +50,7 @@
                 </section>
             </div>
         </main>
+        
     </body>
+    <script src="./static/js/magic-eight-ball.js"></script>
 </html>
