@@ -1,4 +1,4 @@
-### https://jboyle1.github.io/magic-eightball/
+### https://jboyle1.github.io/magic-eight-ball/
  
 ## Magic Eight Ball Application 
 
